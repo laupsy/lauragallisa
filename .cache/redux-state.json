@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1a1afe207b87f0b55465a90bf2591a88",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -282,6 +273,10 @@
             "version": "^16.8.3"
           },
           {
+            "name": "react-click-outside",
+            "version": "^3.0.1"
+          },
+          {
             "name": "react-dom",
             "version": "^16.8.3"
           },
@@ -432,16 +427,14 @@
       "siteMetadata": {
         "title": "Laura Gallisá"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-02T21:36:51.929Z",
+      "buildTime": "2019-04-03T15:11:55.749Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "996764143e5140244de884879b04ac4b",
+        "contentDigest": "23b97b34c87f92ca96e782054dd8932a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -469,7 +462,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "844d1118912a5c6df56f825dbe8fdbd2"
+    "PLUGINS_HASH": "748942408a04dc5de5c12ec4f77e9cf8"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -481,10 +474,6 @@
     "dropbox-890": "137/path---dropbox-890-670-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js"
-    },
     "/Users/lauragallisa/lauragallisa/src/pages/index.jsx": {
       "query": "",
       "componentPath": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx"

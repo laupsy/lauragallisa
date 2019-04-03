@@ -2,12 +2,9 @@ import React, { Fragment } from "react";
 import { createGlobalStyle, ThemeProvider } from "styled-components";
 import { Normalize } from "styled-normalize";
 import { Helmet } from "react-helmet";
-import AndroidFaviconSmall from "./assets/android-chrome-192x192.png";
-import AndroidFaviconLarge from "./assets/android-chrome-512x512.png";
 import AppleTouchIcon from "./assets/apple-touch-icon.png";
 import FaviconSmall from "./assets/favicon-16x16.png";
 import FaviconMedium from "./assets/favicon-32x32.png";
-import FaviconIcon from "./assets/favicon.ico";
 
 /**
  * Provides access to the Styled Components theme, as well as

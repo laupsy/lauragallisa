@@ -66,7 +66,6 @@ const Provider = ({ children }) => (
         <link rel="icon" type="image/png" sizes="16x16" href={FaviconSmall} />
         <link rel="manifest" href="/site.webmanifest" />
         <title>Laura Gallisá</title>
-        <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <GlobalStyles />
       <Normalize />

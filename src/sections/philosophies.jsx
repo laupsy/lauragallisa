@@ -12,7 +12,14 @@ import ZoomIn from "../components/zoom-in";
 
 const Philosiphies = () => (
   <TextGrid>
-    <H2>About Me</H2>
+    <div>
+      <H2>About Me</H2>
+      <Paragraph>
+        I&apos;m a technical designer with extensive experience designing and
+        developing for web. I&apos;ve also designed and developed for Android
+        and native macOS.{" "}
+      </Paragraph>
+    </div>
     <AspectRatio width={1280} height={1598}>
       <img
         alt="Laura smiling while wearing a winter coast"

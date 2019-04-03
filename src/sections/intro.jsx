@@ -14,11 +14,6 @@ const Intro = () => (
       transparent and automated.
     </Paragraph>
     <Paragraph>
-      I&apos;m a technical designer with extensive experience designing and
-      developing for web. I&apos;ve also designed and developed for Android and
-      native macOS.{" "}
-    </Paragraph>
-    <Paragraph>
       I’ve shipped things at awesome places -{" "}
       <Link href="https://www.dropbox.com" newTab>
         Dropbox

@@ -7,14 +7,12 @@ const ContentWrapper = styled.div(({ width, isCentered, offset }) => ({
   ...(isCentered
     ? { margin: offset ? `${offset} auto` : "0 auto" }
     : {
-        margin: offset,
+        margin: `${offset} 0`,
       }),
 }));
 
-const Image = styled.div(({ width, height }) => ({
+const Image = styled.div(({ width, height, isNaked }) => ({
   background: "transparent",
-  borderRadius: "0.5em",
-  boxShadow: "0px 4px 10px -2px rgba(0,0,0,0.1)",
   height: "0px",
   overflow: "hidden",
   paddingBottom:
@@ -22,6 +20,10 @@ const Image = styled.div(({ width, height }) => ({
       ? `${(height / width) * 100}%`
       : `${(width / height) * 100}%`,
   position: "relative",
+  ...(!isNaked && {
+    borderRadius: "0.5em",
+    boxShadow: "0px 4px 10px -2px rgba(0,0,0,0.1)",
+  }),
   "svg, img, figure": {
     alignItems: "center",
     display: "flex",
@@ -34,9 +36,16 @@ const Image = styled.div(({ width, height }) => ({
   },
 }));
 
-const AspectRatio = ({ children, width, height, isCentered, offset }) => (
+const AspectRatio = ({
+  children,
+  width,
+  height,
+  isCentered,
+  isNaked,
+  offset,
+}) => (
   <ContentWrapper isCentered={isCentered} offset={offset} width={width}>
-    <Image width={width} height={height}>
+    <Image isNaked={isNaked} width={width} height={height}>
       {children}
     </Image>
   </ContentWrapper>

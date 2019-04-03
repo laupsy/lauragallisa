@@ -12,25 +12,25 @@ const ContentWrapper = styled.div(({ width, isCentered, offset }) => ({
 }));
 
 const Image = styled.div(({ width, height }) => ({
+  background: "transparent",
+  borderRadius: "0.5em",
   boxShadow: "0px 4px 10px -2px rgba(0,0,0,0.1)",
+  height: "0px",
+  overflow: "hidden",
   paddingBottom:
     width / height !== 0.75
       ? `${(height / width) * 100}%`
       : `${(width / height) * 100}%`,
-  height: "0px",
   position: "relative",
-  background: "transparent",
-  borderRadius: "0.5em",
-  overflow: "hidden",
   "svg, img, figure": {
-    display: "flex",
-    justifyContent: "center",
     alignItems: "center",
+    display: "flex",
+    height: "100%",
+    justifyContent: "center",
+    left: "0",
     position: "absolute",
     top: "0",
-    left: "0",
     width: "100%",
-    height: "100%",
   },
 }));
 

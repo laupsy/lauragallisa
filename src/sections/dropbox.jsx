@@ -1,12 +1,12 @@
 import React from "react";
+import * as Work from "../assets/work";
+import AspectRatio from "../components/aspect-ratio";
 import H2 from "../components/h2";
 import Paragraph from "../components/paragraph";
-import TextGrid from "../components/text-grid";
-import ZoomIn from "../components/zoom-in";
-import AspectRatio from "../components/aspect-ratio";
-import Video from "../components/video";
-import * as Work from "../assets/work";
 import ParagraphGrid from "../components/paragraph-grid";
+import TextGrid from "../components/text-grid";
+import Video from "../components/video";
+import ZoomIn from "../components/zoom-in";
 
 const Dropbox = () => (
   <TextGrid>

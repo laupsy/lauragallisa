@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
-const VideoWrapper = styled.div({
-  borderRadius: "12px",
-  overflow: "hidden",
-  padding: "1em",
+const VideoWrapper = styled.div(({ theme }) => ({
+  alignItems: "center",
+  background: theme.foreground,
+  borderRadius: "0.5em",
   display: "flex",
   justifyContent: "center",
-  alignItems: "center",
-  background: "rgba(0,0,0,0.05)",
-});
+  overflow: "hidden",
+  padding: "1em",
+}));
 
 const VideoBlock = styled.video({
-  width: "100%",
   height: "auto",
+  width: "100%",
 });
 
 const Video = ({ src }) => (

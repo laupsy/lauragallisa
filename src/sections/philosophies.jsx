@@ -1,14 +1,14 @@
 import React from "react";
-import H2 from "../components/h2";
-import Paragraph from "../components/paragraph";
-import TextGrid from "../components/text-grid";
-import Link from "../components/link";
-import ZoomIn from "../components/zoom-in";
-import AspectRatio from "../components/aspect-ratio";
 import * as Work from "../assets/work";
-import ParagraphGrid from "../components/paragraph-grid";
-import MeWearingACoat from "../assets/me2.jpg";
+import AspectRatio from "../components/aspect-ratio";
+import H2 from "../components/h2";
+import Link from "../components/link";
 import MeEatingFrenchToast from "../assets/me3.jpg";
+import MeWearingACoat from "../assets/me2.jpg";
+import Paragraph from "../components/paragraph";
+import ParagraphGrid from "../components/paragraph-grid";
+import TextGrid from "../components/text-grid";
+import ZoomIn from "../components/zoom-in";
 
 const Philosiphies = () => (
   <TextGrid>
@@ -41,7 +41,7 @@ const Philosiphies = () => (
     </ZoomIn>
     <Paragraph>
       In my spare time I&apos;m{" "}
-      <Link href="https://www.instagram.com/p/BscjNeQHb10/">
+      <Link href="https://www.instagram.com/p/BscjNeQHb10/" newTab>
         exploring tropical places
       </Link>
       ,{" "}

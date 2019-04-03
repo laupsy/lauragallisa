@@ -1,11 +1,11 @@
 import React from "react";
+import * as Work from "../assets/work";
+import AspectRatio from "../components/aspect-ratio";
 import H2 from "../components/h2";
-import Paragraph from "../components/paragraph";
 import Link from "../components/link";
+import Paragraph from "../components/paragraph";
 import TextGrid from "../components/text-grid";
 import ZoomIn from "../components/zoom-in";
-import AspectRatio from "../components/aspect-ratio";
-import * as Work from "../assets/work";
 
 const Tendigi = () => (
   <TextGrid>

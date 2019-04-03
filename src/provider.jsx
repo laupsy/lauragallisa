@@ -9,14 +9,17 @@ import { Normalize } from "styled-normalize";
  */
 const GlobalStyles = createGlobalStyle`
 @import url('https://rsms.me/inter/inter.css');
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
 
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
 
-html {
+html, body {
   box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  padding: 0
 }
 body {
   overflow-x: hidden;
@@ -35,13 +38,14 @@ a {
 
 const theme = {
   background: "hsl(0, 0%, 100%)",
-  foreground: "hsl(220, 20%, 95%)",
-  title: "hsl(220, 20%, 5%)",
-  label: "hsl(220, 10%, 60%)",
   body: "hsl(220, 20%, 25%)",
+  fog: "rgba(255,255,255,0.9)",
+  foreground: "hsl(220, 20%, 95%)",
   highlight: "hsl(310, 80%, 56%)",
-  lowlight: "hsl(360, 90%, 66%)",
+  label: "hsl(220, 10%, 60%)",
   line: "hsl(220, 10%, 90%)",
+  lowlight: "hsl(360, 90%, 66%)",
+  title: "hsl(220, 20%, 5%)",
 };
 
 const Provider = ({ children }) => (

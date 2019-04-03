@@ -1,20 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
-const StyledAnchorTag = styled.a(({ theme, isOnDark }) => ({
+const StyledAnchorTag = styled.a(({ theme }) => ({
+  borderBottom: `1px solid ${theme.line}`,
+  color: theme.body,
   textDecoration: "none",
-  borderBottom: `1px solid ${isOnDark ? theme.highlight : theme.line}`,
-  color: isOnDark ? theme.highlight : theme.body,
   ":hover": {
-    color: isOnDark ? theme.background : theme.body,
-    borderBottomColor: isOnDark ? theme.background : theme.body,
+    borderBottomColor: theme.body,
+    color: theme.body,
   },
 }));
 
-const Link = ({ href, children, isOnDark, newTab }) => (
+const Link = ({ href, children, newTab }) => (
   <StyledAnchorTag
     href={href}
-    isOnDark={isOnDark}
     target={newTab && "_blank"}
     rel="noopener noreferrer"
   >

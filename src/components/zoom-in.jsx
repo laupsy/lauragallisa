@@ -7,28 +7,28 @@ const SmallWrapper = styled.div({
   position: "relative",
 });
 
-const LargeWrapper = styled(FadeIn)({
-  position: "fixed",
-  top: "0",
-  left: "0",
-  right: "0",
+const LargeWrapper = styled(FadeIn)(({ theme }) => ({
+  alignItems: "center",
+  background: theme.fog,
   bottom: "0",
   display: "flex",
   justifyContent: "center",
-  alignItems: "center",
-  background: "rgba(255,255,255,0.9)",
+  left: "0",
+  position: "fixed",
+  right: "0",
+  top: "0",
   zIndex: "2",
-});
+}));
 
 const LargeContent = styled.div({
-  cursor: "zoom-out",
-  width: "100%",
-  height: "100%",
-  padding: "5em",
-  overflow: "auto",
-  display: "flex",
-  justifyContent: "center",
   alignItems: "start",
+  cursor: "zoom-out",
+  display: "flex",
+  height: "100%",
+  justifyContent: "center",
+  overflow: "auto",
+  padding: "5em",
+  width: "100%",
   "> *": {
     maxWidth: "80vw",
   },

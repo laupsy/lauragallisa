@@ -18,7 +18,7 @@ const VideoBlock = styled.video({
 
 const Video = ({ src }) => (
   <VideoWrapper>
-    <VideoBlock controls autoPlay loop>
+    <VideoBlock controls playsinline autoPlay loop>
       <source src={src} type="video/mp4" />
     </VideoBlock>
   </VideoWrapper>

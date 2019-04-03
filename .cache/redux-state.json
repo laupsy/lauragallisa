@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "1a1afe207b87f0b55465a90bf2591a88",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -509,14 +518,14 @@
       "siteMetadata": {
         "title": "Laura Gallisá"
       },
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-04-03T21:21:38.455Z",
+      "port": "8000",
+      "host": "localhost",
+      "buildTime": "2019-04-03T21:31:32.574Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f456030ba06601ff00defd091ef0fe51",
+        "contentDigest": "4a72b20608a030017f78d538c90087b0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -559,6 +568,10 @@
     "/Users/lauragallisa/lauragallisa/src/pages/index.jsx": {
       "query": "",
       "componentPath": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx"
+    },
+    "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}

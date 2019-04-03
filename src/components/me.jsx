@@ -4,7 +4,7 @@ import PictureOfMe from "../assets/me.jpg";
 
 const StyledMe = styled.img({
   borderRadius: "100%",
-  margin: "6em 0 3em",
+  margin: "3em 0 3em",
   width: "10em",
 });
 

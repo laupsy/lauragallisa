@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "1a1afe207b87f0b55465a90bf2591a88",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -245,6 +254,30 @@
         "author": "Laura Gallisá",
         "dependencies": [
           {
+            "name": "@mdx-js/mdx",
+            "version": "^0.15.0"
+          },
+          {
+            "name": "@mdx-js/tag",
+            "version": "^0.15.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^3.0.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.21"
+          },
+          {
+            "name": "prettier",
+            "version": "^1.16.4"
+          },
+          {
             "name": "react",
             "version": "^16.8.3"
           },
@@ -257,24 +290,18 @@
             "version": "4.1.3"
           },
           {
-            "name": "@mdx-js/mdx",
-            "version": "^0.15.0"
-          },
-          {
-            "name": "@mdx-js/tag",
-            "version": "^0.15.0"
-          },
+            "name": "styled-normalize",
+            "version": "^8.0.6"
+          }
+        ],
+        "devDependencies": [
           {
             "name": "eslint",
-            "version": "^5.13.0"
+            "version": "^5.15.3"
           },
           {
             "name": "eslint-config-airbnb",
             "version": "^17.1.0"
-          },
-          {
-            "name": "eslint-config-prettier",
-            "version": "^4.0.0"
           },
           {
             "name": "eslint-plugin-import",
@@ -285,27 +312,10 @@
             "version": "^6.2.1"
           },
           {
-            "name": "eslint-plugin-prettier",
-            "version": "^3.0.1"
-          },
-          {
             "name": "eslint-plugin-react",
             "version": "^7.12.4"
-          },
-          {
-            "name": "gatsby",
-            "version": "^2.0.21"
-          },
-          {
-            "name": "prettier",
-            "version": "^1.15.2"
-          },
-          {
-            "name": "styled-normalize",
-            "version": "^8.0.6"
           }
         ],
-        "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
@@ -422,14 +432,16 @@
       "siteMetadata": {
         "title": "Laura Gallisá"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-24T00:16:36.728Z",
+      "buildTime": "2019-04-02T21:36:51.929Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fa60985d9d64c9619c0586762ab7ed8b",
+        "contentDigest": "996764143e5140244de884879b04ac4b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -457,7 +469,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "968d34f1cfbffd93501f7b8d6ce852c7"
+    "PLUGINS_HASH": "844d1118912a5c6df56f825dbe8fdbd2"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -465,9 +477,14 @@
   },
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E"
+    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
+    "dropbox-890": "137/path---dropbox-890-670-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js"
+    },
     "/Users/lauragallisa/lauragallisa/src/pages/index.jsx": {
       "query": "",
       "componentPath": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx"

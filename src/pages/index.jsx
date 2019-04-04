@@ -10,7 +10,6 @@ import Philosiphies from "../sections/philosophies";
 import SectionGrid from "../components/section-grid";
 import Tendigi from "../sections/tendigi";
 import Twitch from "../sections/twitch";
-import Underline from "../assets/underline";
 import Conclusion from "../sections/conclusion";
 
 const Wrapper = styled.div({
@@ -20,17 +19,16 @@ const Wrapper = styled.div({
   padding: "0 2em",
 });
 
-const Title = styled.div({
+const TitleBlock = styled.div({
   position: "relative",
   display: "inline-block",
-  marginBottom: "1.3em",
+  marginBottom: "5em",
+  paddingTop: "5em",
 });
 
-const PositionedUnderline = styled(Underline)({
-  position: "absolute",
-  bottom: "0",
-  right: "0.8em",
-  width: "5.4em",
+const Title = styled(H1)({
+  marginBottom: "0.5em",
+  marginTop: "1em",
 });
 
 const Overview = () => {
@@ -42,13 +40,12 @@ const Overview = () => {
   return (
     <BaseLayout>
       <Wrapper>
-        <Title>
+        <TitleBlock>
           <Me />
-          <H1>Hi—I&apos;m Laura!</H1>
-          <PositionedUnderline />
-        </Title>
-        <SectionGrid>
+          <Title>Hi—I&apos;m Laura</Title>
           <Intro />
+        </TitleBlock>
+        <SectionGrid>
           <Tabs>
             <Tab
               isActive={isDropboxActive}

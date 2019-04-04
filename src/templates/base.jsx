@@ -1,8 +1,23 @@
 import React from "react";
+import styled from "styled-components";
+
+const Decor = styled.div(({ theme }) => ({
+  position: "fixed",
+  top: "0",
+  left: "0",
+  width: "0.5em",
+  height: "100vh",
+  background: theme.highlight,
+}));
+
+const Content = styled.div({
+  paddingLeft: "0.5em",
+});
 
 const BaseLayout = ({ className, children }) => (
   <div>
-    <section className={className}>{children}</section>
+    <Decor />
+    <Content className={className}>{children}</Content>
   </div>
 );
 

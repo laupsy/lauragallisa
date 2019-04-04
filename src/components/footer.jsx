@@ -5,10 +5,8 @@ const Footer = styled.div(({ theme }) => ({
   background: theme.foreground,
   display: "flex",
   height: "80vh",
-  justifyContent: "center",
   marginTop: "5em",
   padding: "4em",
-  textAlign: "center",
   width: "100%",
 }));
 

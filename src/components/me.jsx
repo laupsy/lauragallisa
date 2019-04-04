@@ -8,7 +8,7 @@ const StyledMe = styled.img({
 });
 
 const Me = ({ className }) => (
-  <AspectRatio width="200" height="200" isNaked offset="3em">
+  <AspectRatio width="200" height="200" isNaked>
     <StyledMe
       className={className}
       src={PictureOfMe}

@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 const H2 = styled.h2(({ theme }) => ({
   color: theme.title,
-  fontFamily: "'Bitter', serif",
-  fontSize: "1.5em",
-  fontWeight: "600",
+  fontFamily: "'Inter', sans-serif",
+  fontSize: "2em",
+  letterSpacing: "-0.03em",
+  fontWeight: "700",
   marginBottom: "0.6em",
 }));
 

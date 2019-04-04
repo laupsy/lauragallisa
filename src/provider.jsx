@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import AppleTouchIcon from "./assets/apple-touch-icon.png";
 import FaviconSmall from "./assets/favicon-16x16.png";
 import FaviconMedium from "./assets/favicon-32x32.png";
+import * as fonts from "./assets/fonts";
 
 /**
  * Provides access to the Styled Components theme, as well as
@@ -12,11 +13,29 @@ import FaviconMedium from "./assets/favicon-32x32.png";
  * Provider is used in gatsby-node.js and gatsby-ssr.js
  */
 const GlobalStyles = createGlobalStyle`
-@import url('https://rsms.me/inter/inter.css');
-@import url('https://fonts.googleapis.com/css?family=Bitter');
-
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inter Regular"), 
+       url(${fonts.InterRegular}) format("woff"),
+       url(${fonts.InterRegular2}) format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Inter Bold"), 
+       url(${fonts.InterExtraBold}) format("woff"),
+       url(${fonts.InterExtraBold2}) format("woff2");
+}
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Inter Black"), 
+       url(${fonts.InterBlack}) format("woff"),
+       url(${fonts.InterBlack2}) format("woff2");
 }
 
 html, body {
@@ -45,7 +64,7 @@ const theme = {
   body: "hsl(220, 20%, 25%)",
   fog: "rgba(255,255,255,0.9)",
   foreground: "hsl(220, 20%, 95%)",
-  highlight: "hsl(310, 80%, 56%)",
+  highlight: "hsl(320, 70%, 56%)",
   label: "hsl(220, 10%, 60%)",
   line: "hsl(220, 10%, 90%)",
   lowlight: "hsl(360, 90%, 66%)",

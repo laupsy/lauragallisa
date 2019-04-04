@@ -83,7 +83,6 @@ const Provider = ({ children }) => (
         <link rel="apple-touch-icon" sizes="180x180" href={AppleTouchIcon} />
         <link rel="icon" type="image/png" sizes="32x32" href={FaviconMedium} />
         <link rel="icon" type="image/png" sizes="16x16" href={FaviconSmall} />
-        <link rel="manifest" href="/site.webmanifest" />
         <title>Laura Gallisá</title>
       </Helmet>
       <GlobalStyles />

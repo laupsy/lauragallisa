@@ -15,10 +15,9 @@ const Wrapper = styled.div({
 const Conlusion = () => (
   <Footer>
     <Wrapper>
-      <H2>Thanks for reading ♥</H2>
+      <H2>Thanks for reading 💖</H2>
       <Paragraph>
-        Want to chat? Send an email over to{" "}
-        <Link href="mailto:laura@lauragallisa.com">laura@lauragallisa.com</Link>{" "}
+        Reach me at <Link href="mailto:laura@lauragallisa.com">laura@lauragallisa.com</Link>{" "}
         or contact me on{" "}
         <Link href="https://www.twitter.com/Laupsy" newTab>
           Twitter

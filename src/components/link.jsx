@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledAnchorTag = styled.a(({ theme }) => ({
-  borderBottom: `1px solid ${theme.line}`,
+  borderBottom: `3px solid ${theme.line}`,
   color: theme.body,
   textDecoration: "none",
   ":hover": {

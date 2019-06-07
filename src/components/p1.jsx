@@ -3,9 +3,9 @@ import styled from "styled-components";
 const P1 = styled.p(({ theme }) => ({
   color: theme.body,
   fontFamily: "'Inter', sans-serif",
-  fontSize: "0.9em",
+  fontSize: "1.1em",
   fontWeight: "400",
-  letterSpacing: "-0.009em",
+  letterSpacing: "-0.006em",
   lineHeight: "1.85",
   margin: "0",
   padding: "0",

@@ -5,7 +5,7 @@ import Label from "./label";
 const StyledTab = styled.button(({ isActive, theme }) => ({
   background: "transparent",
   border: "0",
-  borderBottom: isActive ? `1px solid ${theme.title}` : `1px solid transparent`,
+  borderBottom: isActive ? `3px solid ${theme.title}` : `3px solid transparent`,
   color: isActive ? theme.title : theme.body,
   marginRight: "1.5em",
   outline: "0",
@@ -22,8 +22,8 @@ const StyledTab = styled.button(({ isActive, theme }) => ({
 const Tabs = styled.div(({ theme }) => ({
   background: theme.background,
   display: "flex",
-  margin: "-1em -2em -3em",
-  padding: "2em",
+  margin: "-1em -1em 0",
+  padding: "1em",
   position: "sticky",
   top: "0",
   zIndex: "1",

@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "jsonName": "dev-404-page-5f9",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "1a1afe207b87f0b55465a90bf2591a88",
+        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
@@ -405,14 +414,6 @@
         "author": "Laura Gallisá",
         "dependencies": [
           {
-            "name": "@mdx-js/mdx",
-            "version": "^0.15.0"
-          },
-          {
-            "name": "@mdx-js/tag",
-            "version": "^0.15.0"
-          },
-          {
             "name": "eslint-config-prettier",
             "version": "^4.0.0"
           },
@@ -439,10 +440,6 @@
           {
             "name": "react",
             "version": "^16.8.3"
-          },
-          {
-            "name": "react-click-outside",
-            "version": "^3.0.1"
           },
           {
             "name": "react-dom",
@@ -599,14 +596,16 @@
       "siteMetadata": {
         "title": "Laura Gallisá"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-04T17:07:29.761Z",
+      "buildTime": "2019-06-07T16:15:51.603Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "cada71037a96df020bb7f9ce2d4de66f",
+        "contentDigest": "5a36d0bdd43e25dc8be6daccd4b3c8db",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -634,7 +633,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "d514d1541c639272374c8188d6a904c7"
+    "PLUGINS_HASH": "302f446fcb6ac7052405fd795eed4379"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -646,6 +645,10 @@
     "dropbox-890": "137/path---dropbox-890-670-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js"
+    },
     "/Users/lauragallisa/lauragallisa/src/pages/index.jsx": {
       "query": "",
       "componentPath": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx"

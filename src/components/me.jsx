@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import AspectRatio from "./aspect-ratio";
-import PictureOfMe from "../assets/me.jpg";
+import PictureOfMe from "../assets/me5.jpg";
 
 const StyledMe = styled.img({
   borderRadius: "100%",

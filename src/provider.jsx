@@ -63,7 +63,7 @@ const theme = {
   background: "hsl(0, 0%, 100%)",
   body: "hsl(220, 20%, 25%)",
   fog: "rgba(255,255,255,0.9)",
-  foreground: "hsl(220, 20%, 95%)",
+  foreground: "hsl(220, 20%, 98%)",
   highlight: "hsl(320, 70%, 56%)",
   label: "hsl(220, 10%, 60%)",
   line: "hsl(220, 10%, 90%)",

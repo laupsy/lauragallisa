@@ -19,7 +19,7 @@ import ZoomIn from "../components/zoom-in";
 import HomeIntro from "../assets/HomeIntro.jpg";
 import HomeSpotlight from "../assets/HomeSpotlight.jpg";
 import GlitterVideo from "../assets/Glitter.mp4";
-import Particles from "../assets/Particles.mp4";
+import Particles from "../assets/Particles.jpg";
 import Iconography from "../assets/Iconography.jpg";
 import StarsVideo from "../assets/Stars.mp4";
 import Bricks from "../assets/Bricks.jpg";

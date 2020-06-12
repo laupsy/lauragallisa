@@ -191,12 +191,11 @@ const Work = () => (
               </Link>{" "}
               animated with CSS and JS. This was a particularly challenging project that
               required strategic art direction in order to meet a tight deadline. The
-              page is no longer live, but you can read about it{" "}
-              <Link
+              page is no longer live, but you can{" "}<Link
                 href="https://thenextweb.com/insider/2016/02/11/twitch-users-watched-459366-years-worth-of-content-in-2015/"
                 newTab
               >
-                here
+                read about it here
               </Link>
               .
             </Paragraph>

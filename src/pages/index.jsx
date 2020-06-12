@@ -13,7 +13,7 @@ import H2 from "../components/h2";
 import Link from "../components/link";
 import MeEatingFrenchToast from "../assets/me3.jpg";
 import MeWearingACoat from "../assets/me2.jpg";
-import MyNotes from "../assets/notes.jpg";
+import MyNotes from "../assets/Notes.jpg";
 import Paragraph from "../components/paragraph";
 import ParagraphGrid from "../components/paragraph-grid";
 import TextGrid from "../components/text-grid";

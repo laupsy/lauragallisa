@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "gatsby";
+import { Link as GatsbyLink } from "gatsby";
 import { Tabs, Tab } from "../components/tabs";
 import BaseLayout from "../templates/base";
 import Me from "../components/me";
 import H1 from "../components/h1";
+import Link from "../components/link";
 import SectionGrid from "../components/section-grid";
 import Conclusion from "../sections/conclusion";
 import AspectRatio from "../components/aspect-ratio";
@@ -15,25 +16,25 @@ import ParagraphGrid from "../components/paragraph-grid";
 import TextGrid from "../components/text-grid";
 import Video from "../components/video";
 import ZoomIn from "../components/zoom-in";
-import HomeIntro from "../assets/HomeIntro.webp";
-import HomeSpotlight from "../assets/HomeSpotlight.webp";
+import HomeIntro from "../assets/HomeIntro.jpg";
+import HomeSpotlight from "../assets/HomeSpotlight.jpg";
 import GlitterVideo from "../assets/Glitter.mp4";
 import Particles from "../assets/Particles.mp4";
-import Iconography from "../assets/Iconography.webp";
+import Iconography from "../assets/Iconography.jpg";
 import StarsVideo from "../assets/Stars.mp4";
-import Bricks from "../assets/Bricks.webp";
-import Styles from "../assets/Styles.webp";
-import Styles2 from "../assets/Styles2.webp";
-import Retro2015 from "../assets/Retro2015.webp";
+import Bricks from "../assets/Bricks.jpg";
+import Styles from "../assets/Styles.jpg";
+import Styles2 from "../assets/Styles2.jpg";
+import Retro2015 from "../assets/Retro2015.jpg";
 import RetroAnimations from "../assets/RetroAnimations.mp4";
-import RetroEnding from "../assets/RetroEnding.webp";
-import Communities from "../assets/Communities.webp";
-import CreativeLanding from "../assets/CreativeLanding.webp";
-import BibleThump from "../assets/BibleThump.webp";
-import Bacon from "../assets/Bacon.webp";
-import Butter from "../assets/Butter.webp";
-import TendigiStart from "../assets/TendigiStart.webp";
-import TendigiEnd from "../assets/TendigiEnd.webp";
+import RetroEnding from "../assets/RetroEnding.jpg";
+import Communities from "../assets/Communities.jpg";
+import CreativeLanding from "../assets/CreativeLanding.jpg";
+import BibleThump from "../assets/BibleThump.jpg";
+import Bacon from "../assets/Bacon.jpg";
+import Butter from "../assets/Butter.jpg";
+import TendigiStart from "../assets/TendigiStart.jpg";
+import TendigiEnd from "../assets/TendigiEnd.jpg";
 
 const Wrapper = styled.div({
   maxWidth: "40em",
@@ -57,17 +58,17 @@ const SmallerHeading = styled.div(({ theme }) => ({
 
 const Work = () => (
   <BaseLayout>
-    <Link to="/">
+    <GatsbyLink to="/">
       <SmallerHeading>
         <Me size="50" />
         <Name>Laura Gallisá</Name>
       </SmallerHeading>
-    </Link>
+    </GatsbyLink>
     <Wrapper>
       <SectionGrid>
         <Tabs>
-          <Link to="/"><Tab>About</Tab></Link>
-          <Link to="/work"><Tab isActive>Some Work</Tab></Link>
+          <GatsbyLink to="/"><Tab>About</Tab></GatsbyLink>
+          <GatsbyLink to="/work"><Tab isActive>Some Work</Tab></GatsbyLink>
         </Tabs>
         <TextGrid>
             <div>

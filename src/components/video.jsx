@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const VideoWrapper = styled.div(({ theme }) => ({
   alignItems: "center",
-  background: theme.foreground,
+  background: theme.body,
   borderRadius: "0.5em",
   display: "flex",
   justifyContent: "center",

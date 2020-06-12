@@ -6,7 +6,7 @@ import ParagraphGrid from "../components/paragraph-grid";
 const Intro = () => (
   <ParagraphGrid>
     <Paragraph>
-      I run Design at{" "}
+      I run Product & Design at{" "}
       <Link href="https://www.fleetsmith.com" newTab>
         Fleetsmith
       </Link>{" "}

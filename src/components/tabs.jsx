@@ -22,7 +22,7 @@ const StyledTab = styled.button(({ isActive, theme }) => ({
 const Tabs = styled.div(({ theme }) => ({
   background: theme.background,
   display: "flex",
-  margin: "-1em -1em 0",
+  margin: "0 -1em",
   padding: "1em",
   position: "sticky",
   top: "0",

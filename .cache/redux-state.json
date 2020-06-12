@@ -4,24 +4,24 @@
       "jsonName": "dev-404-page-5f9",
       "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
+      "component": "/Users/laura/lauragallisa/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js",
+      "componentPath": "/Users/laura/lauragallisa/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1a1afe207b87f0b55465a90bf2591a88",
+        "contentDigest": "840c79542418893d35268f3ae28085a3",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
     },
     "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -33,7 +33,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -50,13 +50,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "656eecc54be78557c9c9b882f7f16a7c",
+        "contentDigest": "5ab68bcba795cadd57a0ed172c135b16",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1fc32581-893a-55e8-8927-bcd667e2b700": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "id": "1fc32581-893a-55e8-8927-bcd667e2b700",
       "name": "load-babel-config",
       "version": "1.0.0",
@@ -68,7 +68,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/load-babel-config",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/load-babel-config",
       "packageJson": {
         "name": "load-babel-config",
         "description": "Internal plugin that handles loading Babel configs",
@@ -85,13 +85,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "8db8d6e34e590b28d8b3dd23a24b1556",
+        "contentDigest": "a71fab395a963f48276b75d7d3a03057",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "a5079d69-ba80-53dc-82f9-0f440bd5448c": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "a5079d69-ba80-53dc-82f9-0f440bd5448c",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -104,7 +104,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -121,13 +121,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5f6c9ab567d619148a1d9e103685c937",
+        "contentDigest": "9bad387a73cba9556253152ba9cb5b9b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "f795702c-a3b8-5a88-88ee-5d06019d44fa": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "f795702c-a3b8-5a88-88ee-5d06019d44fa",
       "name": "prod-404",
       "version": "1.0.0",
@@ -139,7 +139,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -156,13 +156,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "f63919efd85dd855118d8c611544aac6",
+        "contentDigest": "8aa84e887bf82176d5ac1bae9e3f7476",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
       "name": "query-runner",
       "version": "1.0.0",
@@ -174,7 +174,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -191,13 +191,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "921505679c8fc2169425bf2062b6b6b2",
+        "contentDigest": "670e9616ed49dc328b359d1dbefc43e3",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
       "name": "webpack-theme-component-shadowing",
       "version": "1.0.0",
@@ -209,7 +209,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "packageJson": {
         "name": "webpack-theme-component-shadowing",
         "description": "An internal Gatsby plugin which handles configuring webpack to ensure theme components fall back from the user's site to theme modules.",
@@ -226,13 +226,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ae0f5b6c7ffbe5627f1e5e7336083a13",
+        "contentDigest": "e813a443e06a71cfad193a7372fae438",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby-plugin-react-helmet",
       "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
       "name": "gatsby-plugin-react-helmet",
       "version": "3.0.11",
@@ -244,7 +244,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -308,13 +308,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "0be9d809bcd291a2642f3c7dea497c06",
+        "contentDigest": "1c2790c6bf5d401c1786042425331a69",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "d5c18d83-6ae2-52f0-a3bf-a892203bde4f": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby-plugin-styled-components",
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby-plugin-styled-components",
       "id": "d5c18d83-6ae2-52f0-a3bf-a892203bde4f",
       "name": "gatsby-plugin-styled-components",
       "version": "3.0.7",
@@ -329,7 +329,7 @@
         "wrapRootElement",
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby-plugin-styled-components",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby-plugin-styled-components",
       "packageJson": {
         "name": "gatsby-plugin-styled-components",
         "description": "Gatsby plugin to add support for styled components",
@@ -386,13 +386,13 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "d64fb730fbb3ab4bb800e404a42b1dad",
+        "contentDigest": "dc1640e0c8423a9c5a7a488fbf1e58eb",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
-      "resolve": "/Users/lauragallisa/lauragallisa",
+      "resolve": "/Users/laura/lauragallisa",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
       "version": "8372ba0aeef5c2dc24e12ba476fb4c32",
@@ -406,21 +406,13 @@
       "ssrAPIs": [
         "wrapRootElement"
       ],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa",
+      "pluginFilepath": "/Users/laura/lauragallisa",
       "packageJson": {
         "name": "r",
         "description": "",
         "main": "dist/index.cjs.js",
         "author": "Laura Gallisá",
         "dependencies": [
-          {
-            "name": "eslint-config-prettier",
-            "version": "^4.0.0"
-          },
-          {
-            "name": "eslint-plugin-prettier",
-            "version": "^3.0.1"
-          },
           {
             "name": "gatsby",
             "version": "^2.0.21"
@@ -432,10 +424,6 @@
           {
             "name": "gatsby-plugin-styled-components",
             "version": "^3.0.7"
-          },
-          {
-            "name": "prettier",
-            "version": "^1.16.4"
           },
           {
             "name": "react",
@@ -458,28 +446,7 @@
             "version": "^8.0.6"
           }
         ],
-        "devDependencies": [
-          {
-            "name": "eslint",
-            "version": "^5.15.3"
-          },
-          {
-            "name": "eslint-config-airbnb",
-            "version": "^17.1.0"
-          },
-          {
-            "name": "eslint-plugin-import",
-            "version": "^2.16.0"
-          },
-          {
-            "name": "eslint-plugin-jsx-a11y",
-            "version": "^6.2.1"
-          },
-          {
-            "name": "eslint-plugin-react",
-            "version": "^7.12.4"
-          }
-        ],
+        "devDependencies": [],
         "peerDependencies": [],
         "optionalDependecies": [],
         "bundledDependecies": []
@@ -487,19 +454,19 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "ab5a695a419698a29578b89652bd9940",
+        "contentDigest": "599c61db3c01ba7b15991d6fd3d549ec",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
-    "b5cc4eab-b9c5-5732-bb24-b0cd0dea605d": {
-      "resolve": "/Users/lauragallisa/lauragallisa/node_modules/gatsby-plugin-page-creator",
-      "id": "b5cc4eab-b9c5-5732-bb24-b0cd0dea605d",
+    "ac8f95f0-d7b3-5be3-93d5-3fbb37701716": {
+      "resolve": "/Users/laura/lauragallisa/node_modules/gatsby-plugin-page-creator",
+      "id": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
       "name": "gatsby-plugin-page-creator",
       "version": "2.0.6",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/lauragallisa/lauragallisa/src/pages",
+        "path": "/Users/laura/lauragallisa/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -507,7 +474,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/lauragallisa/lauragallisa/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/laura/lauragallisa/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -587,7 +554,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "13e22d0733a87703dcadf33cb9b7495c",
+        "contentDigest": "1e214fa5781b439baa1710defd46d38c",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -598,12 +565,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2019-06-07T16:15:51.603Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2020-06-11T21:00:46.588Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "5e9be0e15245c07604703f590af7fdd6",
+        "contentDigest": "d26793a0646e3afc45f0a8991290fb64",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -612,26 +581,46 @@
       "jsonName": "index",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx",
+      "component": "/Users/laura/lauragallisa/src/pages/index.jsx",
       "componentChunkName": "component---src-pages-index-jsx",
       "context": {},
-      "pluginCreator___NODE": "b5cc4eab-b9c5-5732-bb24-b0cd0dea605d",
-      "pluginCreatorId": "b5cc4eab-b9c5-5732-bb24-b0cd0dea605d",
-      "componentPath": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx",
+      "pluginCreator___NODE": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
+      "pluginCreatorId": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
+      "componentPath": "/Users/laura/lauragallisa/src/pages/index.jsx",
       "id": "SitePage /",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "545bd647020c157df1b8df22125296e3",
-        "description": "b5cc4eab-b9c5-5732-bb24-b0cd0dea605d",
+        "contentDigest": "57d44704722c98bf4d0a4fb7d0ce22bb",
+        "description": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /work/": {
+      "jsonName": "work-fa6",
+      "internalComponentName": "ComponentWork",
+      "path": "/work/",
+      "component": "/Users/laura/lauragallisa/src/pages/work.jsx",
+      "componentChunkName": "component---src-pages-work-jsx",
+      "context": {},
+      "pluginCreator___NODE": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
+      "pluginCreatorId": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
+      "componentPath": "/Users/laura/lauragallisa/src/pages/work.jsx",
+      "id": "SitePage /work/",
+      "parent": null,
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f12c64a6998bea82351146bfc597087d",
+        "description": "ac8f95f0-d7b3-5be3-93d5-3fbb37701716",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "302f446fcb6ac7052405fd795eed4379"
+    "PLUGINS_HASH": "da8265d30b3caa043d982196473e839f"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -640,16 +629,21 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
     "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "dropbox-890": "137/path---dropbox-890-670-NZuapzHg3X9TaN1iIixfv1W23E"
+    "dropbox-890": "137/path---dropbox-890-670-NZuapzHg3X9TaN1iIixfv1W23E",
+    "work-fa6": "469/path---work-fa-6-fb4-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
-    "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js": {
+    "/Users/laura/lauragallisa/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/lauragallisa/lauragallisa/.cache/dev-404-page.js"
+      "componentPath": "/Users/laura/lauragallisa/.cache/dev-404-page.js"
     },
-    "/Users/lauragallisa/lauragallisa/src/pages/index.jsx": {
+    "/Users/laura/lauragallisa/src/pages/index.jsx": {
       "query": "",
-      "componentPath": "/Users/lauragallisa/lauragallisa/src/pages/index.jsx"
+      "componentPath": "/Users/laura/lauragallisa/src/pages/index.jsx"
+    },
+    "/Users/laura/lauragallisa/src/pages/work.jsx": {
+      "query": "",
+      "componentPath": "/Users/laura/lauragallisa/src/pages/work.jsx"
     }
   },
   "staticQueryComponents": {}

@@ -64,10 +64,10 @@ const theme = {
   body: "hsl(220, 20%, 25%)",
   fog: "rgba(255,255,255,0.9)",
   foreground: "hsl(220, 20%, 98%)",
-  highlight: "hsl(320, 70%, 56%)",
+  highlight: "hsl(325, 60%, 50%)",
   label: "hsl(220, 10%, 60%)",
   line: "hsl(220, 10%, 90%)",
-  lowlight: "hsl(360, 90%, 66%)",
+  lowlight: "hsl(360, 60%, 56%)",
   title: "hsl(220, 20%, 5%)",
 };
 
@@ -84,6 +84,7 @@ const Provider = ({ children }) => (
         <link rel="icon" type="image/png" sizes="32x32" href={FaviconMedium} />
         <link rel="icon" type="image/png" sizes="16x16" href={FaviconSmall} />
         <title>Laura Gallisá</title>
+        <meta name="description" content="Laura Gallisá is a technical design lead and manager with experience designing and developing for web, React, native macOS, and iOS. Laura cares deeply about designing conscientious experiences that are delightfully accessible to everyone. Laura's generative approach starts by identifying the problem that needs to be solved, and then analyzes optimizations and trade-offs of potential solutions before making an opinionated decision on the right solution. Problems are solved in both the interface and in the technical infrastructure, which is why Laura works closely with the engineers on her team to achieve the best possible outcome. Laura has shipped things at awesome places - Fleetsmith, Dropbox, Twitch, Tendigi. Laura received her Bachelor of Science in Computer Science from New York University Tandon School of Engineering." />
       </Helmet>
       <GlobalStyles />
       <Normalize />

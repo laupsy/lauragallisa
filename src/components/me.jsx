@@ -7,8 +7,8 @@ const StyledMe = styled.img({
   borderRadius: "100%",
 });
 
-const Me = ({ className }) => (
-  <AspectRatio width="200" height="200" isNaked>
+const Me = ({ className, size="200" }) => (
+  <AspectRatio width={size} height={size} isNaked>
     <StyledMe
       className={className}
       src={PictureOfMe}

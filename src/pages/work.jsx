@@ -15,25 +15,25 @@ import ParagraphGrid from "../components/paragraph-grid";
 import TextGrid from "../components/text-grid";
 import Video from "../components/video";
 import ZoomIn from "../components/zoom-in";
-import HomeIntro from "../assets/HomeIntro.jpg";
-import HomeSpotlight from "../assets/HomeSpotlight.jpg";
+import HomeIntro from "../assets/HomeIntro.webp";
+import HomeSpotlight from "../assets/HomeSpotlight.webp";
 import GlitterVideo from "../assets/Glitter.mp4";
 import Particles from "../assets/Particles.mp4";
-import Iconography from "../assets/Iconography.jpg";
+import Iconography from "../assets/Iconography.webp";
 import StarsVideo from "../assets/Stars.mp4";
-import Bricks from "../assets/Bricks.jpg";
-import Styles from "../assets/Styles.jpg";
-import Styles2 from "../assets/Styles2.jpg";
-import Retro2015 from "../assets/Retro2015.jpg";
+import Bricks from "../assets/Bricks.webp";
+import Styles from "../assets/Styles.webp";
+import Styles2 from "../assets/Styles2.webp";
+import Retro2015 from "../assets/Retro2015.webp";
 import RetroAnimations from "../assets/RetroAnimations.mp4";
-import RetroEnding from "../assets/RetroEnding.jpg";
-import Communities from "../assets/Communities.jpg";
-import CreativeLanding from "../assets/CreativeLanding.jpg";
-import BibleThump from "../assets/BibleThump.jpg";
-import Bacon from "../assets/Bacon.jpg";
-import Butter from "../assets/Butter.jpg";
-import TendigiStart from "../assets/TendigiStart.jpg";
-import TendigiEnd from "../assets/TendigiEnd.jpg";
+import RetroEnding from "../assets/RetroEnding.webp";
+import Communities from "../assets/Communities.webp";
+import CreativeLanding from "../assets/CreativeLanding.webp";
+import BibleThump from "../assets/BibleThump.webp";
+import Bacon from "../assets/Bacon.webp";
+import Butter from "../assets/Butter.webp";
+import TendigiStart from "../assets/TendigiStart.webp";
+import TendigiEnd from "../assets/TendigiEnd.webp";
 
 const Wrapper = styled.div({
   maxWidth: "40em",
@@ -91,7 +91,7 @@ const Work = () => (
             <ZoomIn>
             <AspectRatio width={3120} height={2304}>
                 <img
-                alt="Modal overlaying the Dropbo Home interface. It says 'Welcome to your new Dropbox home!' and it has a button that says 'Show me around'."
+                alt="Modal overlaying the Dropbox Home interface. It says 'Welcome to your new Dropbox home!' and it has a button that says 'Show me around'."
                 src={HomeIntro}
                 />
             </AspectRatio>

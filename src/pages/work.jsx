@@ -235,7 +235,7 @@ const Work = () => (
                 >
                   Julia Child
                 </Link>{" "}
-                marathons that pulled in millions of concurrent viewers.
+                marathons that pulled in millions of viewers.
               </Paragraph>
               <Paragraph>
                 On Twitch Creative, I worked on a wide range of things to carve out a

@@ -39,11 +39,6 @@ const Conlusion = () => (
           LinkedIn
         </Link>
       </P2>
-      <P2>
-        <Link href="https://github.com/laupsy/" newTab>
-          GitHub
-        </Link>
-      </P2>
     </Wrapper>
   </Footer>
 );

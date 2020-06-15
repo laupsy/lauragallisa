@@ -55,7 +55,7 @@ const Overview = () => (
           <div>
             <H2>About Me</H2>
             <Paragraph>
-              I&apos;m a technical design lead and manager with experience designing and developing for web, React, native macOS, and iOS.
+              I&apos;m a technical design lead and manager with experience designing and developing for web, React, macOS, and iOS.
             </Paragraph>
           </div>
           <AspectRatio width={1280} height={1598}>

@@ -26,6 +26,11 @@ const EmailTextarea = styled.textarea(({ theme, isCopied }) => ({
     fontSize: "0.9em",
     resize: "none",
     textAlign: "center",
+    color: theme.body,
+    fontFamily: "'Inter', sans-serif",
+    fontSize: "0.9em",
+    fontWeight: "400",
+    letterSpacing: "-0.006",
 }));
 
 const Button = styled.button(({ theme, isCopied }) => ({

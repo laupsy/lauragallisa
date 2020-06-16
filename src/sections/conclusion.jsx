@@ -19,11 +19,9 @@ const Conlusion = () => (
     <Wrapper>
       <H2>Thanks for reading 😎</H2>
       <br/>
-      <P2>
-        <EmailLink href="mailto:laura@lauragallisa.com">
-          laura@lauragallisa.com
-        </EmailLink>
-      </P2>
+      <EmailLink href="mailto:laura@lauragallisa.com">
+        laura@lauragallisa.com
+      </EmailLink>
       <P2>
         <Link href="https://www.twitter.com/lauragallisa" newTab>
           Twitter

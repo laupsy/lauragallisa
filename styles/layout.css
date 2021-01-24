@@ -1,7 +1,8 @@
 #layout {
-    display: grid;
-    align-items: center;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
     padding: 0 10%;
     min-height: 100vh;
     height: auto;
@@ -11,21 +12,12 @@
         "body";
 }
 
-#header {
-    grid-area: header;
-}
-
-#body {
-    grid-area: body;
-}
-
 #calendar {
     position: relative;
     margin-left: 0.5rem;
 }
 
 #weather {
-    grid-area: weather;
     margin-bottom: 2rem;
 }
 

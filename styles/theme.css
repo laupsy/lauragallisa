@@ -9,6 +9,8 @@
     --interactive-opacity: 0.8;
     --disabled-opacity: 0.3;
     --text-color:  rgba(0,0,0,0.65);
+    --mobile-breakpoint: 376px;
+    --content-max: 30rem;
 }
 
 @media (prefers-color-scheme: dark) {

@@ -11,8 +11,14 @@ body,h1,h2,h3,h4,h5,p,figure {
 }
 
 body {
-    font-size: 16px;
+    font-size: 24px;
     background-color: var(--background-color);
+}
+
+@media (min-width: 376px)  { 
+    body {
+        font-size: 16px;
+    }
 }
 
 h1,h2,h3,h4,h5 {
@@ -25,7 +31,12 @@ h1 {
     font-weight: 600;
     color: var(--heading-color);
     letter-spacing: -0.35px;
-    max-width: 30rem;
+}
+
+@media (min-width: 376px)  { 
+    h1 {
+        max-width: var(--content-max);
+    }
 }
 
 h2 {
@@ -34,7 +45,12 @@ h2 {
     font-weight: 600;
     color: var(--heading-color);
     letter-spacing: -0.35px;
-    max-width: 30rem;
+}
+
+@media (min-width: 376px)  { 
+    h2 {
+        max-width: var(--content-max);
+    }
 }
 
 h2 ~ p {
@@ -47,19 +63,29 @@ h3 {
     font-weight: 600;
     color: var(--heading-color);
     letter-spacing: -0.35px;
-    max-width: 30rem;
     display: inline-block;
     margin-right: 0.25rem;
+}
+
+@media (min-width: 376px)  { 
+    h3 {
+        max-width: var(--content-max);
+    }
 }
 
 p {
     margin: 1rem 0;
     padding: 0;
-    max-width: 27rem;
     line-height: 1.275rem;
     font-size: 0.86rem;
     font-weight: 400;
     color: var(--text-color);
+}
+
+@media (min-width: 376px)  { 
+    p {
+        max-width: 27rem;
+    }
 }
 
 span {

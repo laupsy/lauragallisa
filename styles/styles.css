@@ -1,5 +1,60 @@
-@import "theme.css";
-@import "layout.css";
+:root {
+    color-scheme: light dark;
+    --background-color: #ffffff;
+    --foreground-color: #ffffff;
+    --glyph-text-color: #ffffff;
+    --highlight-color: #c4006c;
+    --secondary-color: #e4e4e4;
+    --heading-color: rgba(0,0,0,0.95);
+    --interactive-opacity: 0.8;
+    --disabled-opacity: 0.3;
+    --text-color:  rgba(0,0,0,0.65);
+    --mobile-breakpoint: 376px;
+    --content-max: 30rem;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #0f0f0f;
+        --foreground-color: #1b1b1b;
+        --glyph-text-color: #2960b3;
+        --highlight-color: #a7caff;
+        --secondary-color: #2c2c2c;
+        --heading-color:  rgba(255,255,255,0.95);
+        --text-color:  rgba(255,255,255,0.65);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
 
 * {
     font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -248,3 +303,37 @@ input[type=range] {
   div {
       margin-top: 1.5rem;
   }
+
+  #layout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 10%;
+    min-height: 100vh;
+}
+
+#calendar {
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+#weather {
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+}
+
+.row--bottom {
+  align-items: flex-end;
+}
+
+.row--end {
+  justify-content: flex-end;
+}
+
+.row--end > * {
+    margin-left: 0.5rem;
+}

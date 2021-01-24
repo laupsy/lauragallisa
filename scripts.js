@@ -309,6 +309,10 @@ function initializeScene(date, hoursValue, monthsValue) {
     hoursValue.innerHTML = hours === 0 && "12am" || hours < 12 && hours + "am" || hours === 12 && "12pm" || hours - 12 + "pm";
     monthsValue.innerHTML = season.name + " in " + monthToName(month);
 
+    /* Set up SVG */
+    var canvasContainer = document.getElementById("canvas-container");
+    canvasContainer.innerHTML = '<canvas id="canvas" width=1600 height=800></canvas><svg id="land" xmlns="http://www.w3.org/2000/svg" width="400" height="100" viewBox="0 0 400 100"><rect x="90" y="29" width="7" height="36" rx="3.5" fill="#FBE6ED"/><rect x="262" y="46" width="5" height="17" rx="2.5" fill="#A5F3BB"/><path id="land-swoop" d="M3.86046 60.3564L0 63V84C0 92.8366 7.16345 100 16 100H384C392.837 100 400 92.8366 400 84V36L292.607 50.8128C258.439 55.5257 223.633 51.412 191.504 38.8636C129.252 14.5494 59.003 22.5957 3.86046 60.3564Z" /><rect x="187" y="35" width="9" height="21" rx="4" fill="#FBE6ED"/><rect x="48" y="19" width="5" height="21" rx="2.5" fill="#D9EDFF"/><rect x="375" y="32" width="4" height="17" rx="2" fill="#D9EDFF"/><rect x="98" y="57" width="4" height="16" rx="2" fill="#E2C6FF"/><rect x="308" y="70" width="5" height="12" rx="2.5" fill="#E6E4FF"/></svg>';
+
     /* Set season colors */
     document.getElementById("land-swoop").style.fill = "hsl(" + season.landHue + ", " + season.landSaturation + "%, " + getLandLightness(season.minLandLightness, season.maxLandLightness, date) + "%)";
     document.getElementById("canvas-container").style.background = "hsl(" + season.skyHue + ", " + season.skySaturation + "%, " + getSkyLightness(season.minSkyLightness, season.maxSkyLightness, date) + "%)";

@@ -13,6 +13,8 @@ body,h1,h2,h3,h4,h5,p,figure {
 body {
     font-size: 24px;
     background-color: var(--background-color);
+    opacity: 0;
+    animation: appear 1s 0.3s forwards;
 }
 
 @media (min-width: 376px)  { 

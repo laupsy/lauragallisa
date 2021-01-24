@@ -1,0 +1,45 @@
+#layout {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    padding: 0 4rem;
+    min-height: 100vh;
+    grid-template-areas: 
+        "weather"
+        "header"
+        "body";
+}
+
+#header {
+    grid-area: header;
+}
+
+#body {
+    grid-area: body;
+}
+
+#calendar {
+    position: relative;
+    margin-left: 0.5rem;
+}
+
+#weather {
+    grid-area: weather;
+    margin-bottom: 2rem;
+}
+
+.row {
+    display: flex;
+}
+
+.row--bottom {
+  align-items: flex-end;
+}
+
+.row--end {
+  justify-content: flex-end;
+}
+
+.row--end > * {
+    margin-left: 0.5rem;
+}

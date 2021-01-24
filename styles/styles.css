@@ -1,0 +1,222 @@
+@import "theme.css";
+@import "layout.css";
+
+* {
+    font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+body,h1,h2,h3,h4,h5,p,figure {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    background-color: var(--background-color);
+}
+
+h1,h2,h3,h4,h5 {
+    color: var(--heading-color);
+}
+
+h1 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    letter-spacing: -0.35px;
+    max-width: 30rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    letter-spacing: -0.35px;
+    max-width: 30rem;
+}
+
+h2 ~ p {
+    margin-top: 0.25rem;
+}
+
+h3 {
+    font-size: 0.85rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    letter-spacing: -0.35px;
+    max-width: 30rem;
+    display: inline-block;
+    margin-right: 0.25rem;
+}
+
+p {
+    margin: 1rem 0;
+    padding: 0;
+    max-width: 27rem;
+    line-height: 1.275rem;
+    font-size: 0.86rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+span {
+    line-height: 1.375rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--text-color);
+}
+
+a {
+    color: var(--highlight-color);
+    opacity: var(--interactive-opacity);
+    text-decoration: underline;
+    transition: opacity 0.25s ease;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+button {
+    outline: 0;
+    margin: 0;
+    padding: 0 0.75rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    border: 0;
+    font-size: 0.85rem;
+    border-radius: 6px;
+    opacity: var(--interactive-opacity);
+    transition: opacity 0.3s ease;
+    display: block;
+}
+
+button.button--icon {
+    padding: 0;
+    width: 2rem;
+}
+
+button.button--primary {
+    background: var(--highlight-color);
+    color: var(--glyph-text-color);
+}
+
+button.button--secondary {
+    background: var(--secondary-color);
+    color: var(--heading-color);
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+button:disabled {
+    opacity: var(--disabled-opacity);
+    cursor: not-allowed;
+}
+
+#canvas-container {
+    border-radius: 60px 60px 16px 16px;
+    overflow: hidden;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#canvas-container canvas {
+    width: 800px;
+    height: 400px;
+    transform: scale(0.25);
+    transform-origin: center;
+}
+
+#land {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#land path {
+    fill: var(--land-color)
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0.5rem 0;
+    height: 0.5rem;
+    width: 100%;
+    background: var(--secondary-color);
+    outline: none;
+    opacity: var(--interactive-opacity);
+    transition: opacity .2s;
+    border-radius: 10px;
+    display: block;
+  }
+
+  input[type=range]:hover {
+      opacity: 1;
+  }
+  
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background: var(--highlight-color);
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  input[type=range]::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    background: var(--highlight-color);
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  dialog {
+    box-shadow:
+    0 1.8px 3.6px rgba(0, 0, 0, 0.024),
+    0 5px 10px rgba(0, 0, 0, 0.035),
+    0 12.1px 24.1px rgba(0, 0, 0, 0.046),
+    0 40px 80px rgba(0, 0, 0, 0.07);
+    background: var(--foreground-color);
+    width: 14rem;
+    padding: 1.5rem;
+    position: absolute;
+    left: 0px;
+    top: calc(100% + 0.5rem);
+    z-index: 2;
+    border-radius: 16px;
+    transition: 0.3s ease;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    outline: 0;
+    border: 0;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    dialog {
+        right: 0px;
+        left: auto;
+    }
+}
+
+  div {
+      margin-top: 1.5rem;
+  }

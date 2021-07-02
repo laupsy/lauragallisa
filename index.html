@@ -13,44 +13,48 @@
   <meta name="viewport" content="width=device-width">
 </head>
 
-<body id="layout">
-  <script src="scripts.js"></script>
-    <section id="weather" class="row row--bottom">
-        <figure id="canvas-container">
-        </figure>
-        <section id="calendar">
-            <button class="button--secondary button--icon" id="show-time-menu">📆</button>
-            <dialog id="time-menu">
-                <h2>Change time</h2>
-                <p>Move the sliders up and down to travel through time.</p>
-                <div>
-                    <h3><label for="points">Season</label></h3>
-                    <span id="months-value"></span>
-                    <input id="months" type="range" min="0" max="11"></input>
-                </div>
-                <div>
-                    <h3><label for="points">Time of Day</label></h3>
-                    <span id="hours-value"></span>
-                    <input id="hours" type="range" min="0" max="23"></input>
-                </div>
-                <div class="row row--end">
-                    <button class="button--secondary" id="reset" disabled>Reset</button>
-                    <button class="button--primary" id="hide-time-menu">Done</button>
-                </div>
-            </dialog>
+<body>
+    <div id="layout">
+        <section>
+            <img class="portrait portrait--large" src="laura.jpg"/>
         </section>
-    </section>
-    <section id="header">
-        <h1>i'm laura gallisá, a technical design lead based in the bay area</h1>
-    </section>
-    <section id="body">
-        <p>I currently work at <a rel="noreferrer" href="https://www.apple.com" target="_blank">Apple</a>, where I lead a design team. Previously, I was an early hire at <a rel="noreferrer" href="https://www.fleetsmith.com/fleetsmith-acquired-by-apple" target="_blank">Fleetsmith (acquired by Apple</a>), where I led design, developed the design team, created their design system in partnership with engineering, and worked with founders on vision.</p>
+        <section id="content">
+            <h1>I'm Laura Gallisá, a technical design lead based in NY.</h1>
+            <p>I currently lead a design team at <a rel="noreferrer" href="https://www.apple.com" target="_blank">Apple</a>. Previously, I was an early hire at <a rel="noreferrer" href="https://www.fleetsmith.com/fleetsmith-acquired-by-apple" target="_blank">Fleetsmith (acquired by Apple</a>), where I led design, developed the design team, created their design system in partnership with engineering, where I built components and documentation with React, built their marketing site, helped to hire and craft CSS & systems thinking interviews for front-end developers, and worked with founders on vision.</p>
 
-        <p>Before Fleetsmith, I worked at <a rel="noreferrer" href="https://www.dropbox.com/" target="_blank">Dropbox</a>, where I designed for macOS and web. Before Dropbox, I was a founding member of the web design systems and styles team at <a rel="noreferrer" href="https://www.twitch.tv/" target="_blank">Twitch</a>.</p>
+            <p>Before Fleetsmith, I worked at <a rel="noreferrer" href="https://www.dropbox.com/" target="_blank">Dropbox</a>, where I designed for macOS and web, developed for Android, and built landing pages. Before Dropbox, I was a founding member of the web design systems and styles team at <a rel="noreferrer" href="https://www.twitch.tv/" target="_blank">Twitch</a>, where I built components and documentation, and built their <a href="https://dribbble.com/shots/2524193-Twitch-2015-Retrospective" target="_blank">2015 retrospective</a> with JS and CSS animations. </p>
 
-        <p>I received my B.S. in Computer Science from <a rel="noreferrer" href="https://engineering.nyu.edu" target="_blank">NYU Tandon School of Engineering</a>, while I worked at <a rel="noreferrer" href="https://www.tendigi.com" target="_blank">Tendigi</a>, a design agency in Brooklyn. I grew up on Long Island, NY, where I ate bagels, played Zelda, and went to the beach.</p>
-        
-        <p>Reach me at <a href="mailto:hello@lauragallisa.com">hello@lauragallisa.com</a> 💌</p>
-    </section>
+            <p>I received my B.S. in Computer Science from <a rel="noreferrer" href="https://engineering.nyu.edu" target="_blank">NYU Tandon School of Engineering</a>, while I worked at <a rel="noreferrer" href="https://www.tendigi.com" target="_blank">Tendigi</a>, a design agency in Brooklyn. I grew up on Long Island, NY, where I ate bagels, played Zelda, and went to the beach.</p>
+            
+            <p>Say hi — <a href="mailto:hello@lauragallisa.com">hello@lauragallisa.com</a>.</p>
+            <hr/>
+        </section>
+    </div>
+
+    <div class="image-grid">
+        <img src="sample-1.png" />
+        <img src="retrospective.gif" />
+        <img src="sample-2.png" />
+        <img src="sample-10.gif" />
+        <img src="fleetsmithui.png" />
+        <img src="sample-19.png" />
+        <img src="sample-16.gif" />
+        <img src="sample-15.png" />
+        <img src="sample-11.png" />
+        <img src="sample-3.png" />
+        <img src="sample-13.png" />
+        <img src="sample-14.png" />
+        <img src="sample-17.png" />
+        <img src="sample-12.png" />
+        <img src="sample-18.png" />
+        <img src="sample-20.png" />
+    </div>
+    <hr class="small"/>
+    <img src="laura.jpg" class="portrait portrait--small" />
+    <div class="links-grid">
+        <a href="mailto:hello@lauragallisa.com">Say hi — hello@lauragallisa.com</a>
+        <a href="https://www.dribbble.com/lauragallisa">Dribbble</a>
+        <a href="https://www.twitter.com/lauragallisa">Twitter</a>
+    </div>
 </body>
 </html>

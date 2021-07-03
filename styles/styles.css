@@ -144,10 +144,13 @@ a:hover {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 2rem;
     padding: 2rem;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-grid img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 hr {

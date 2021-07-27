@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
 
 :root {
     color-scheme: light dark;
-    --background-color: #fafafe;
+    --background-color: #fefefe;
     --foreground-color: #f1f1f3;
     --glyph-text-color: #ffffff;
-    --highlight-color: #5430b6;
+    --highlight-color: hsl(307, 100%, 32%);
     --secondary-color: #e4e4e4;
-    --heading-color: rgba(0,0,0,0.95);
+    --heading-color: rgba(0,0,0,0.80);
     --interactive-opacity: 0.8;
     --disabled-opacity: 0.3;
-    --text-color:  rgba(0,0,0,0.65);
+    --text-color:  rgba(0,0,0,0.60);
     --mobile-breakpoint: 376px;
     --content-max: 45rem;
 }
@@ -28,7 +28,7 @@
 }
 
 * {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body,h1,h2,h3,h4,h5,p,figure {
@@ -52,12 +52,12 @@ h1,h2,h3,h4,h5 {
 }
 
 h1 {
-    font-size: 4.75rem;
-    line-height: 5rem;
+    font-size: 2.75rem;
+    line-height: 2.5rem;
     font-weight: 800;
+    text-transform: uppercase;
     color: var(--heading-color);
-    letter-spacing: -0.35px;
-    font-family: 'Lora', sans-serif;
+    letter-spacing: -0.65px;
     margin-bottom: 2rem;
 }
 
@@ -78,9 +78,28 @@ p {
     margin: 1.5rem 0;
     padding: 0;
     line-height: 1.4rem;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 400;
     color: var(--text-color);
+}
+
+a.button {
+    background-color: var(--highlight-color);
+    border-radius: 24px;
+    padding: 0.66rem 1.75rem;
+    outline: 0;
+    color: white;
+    opacity: var(--interactive-opacity);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+a.button:hover {
+    opacity: 1;
 }
 
 @media (min-width: 376px)  { 
@@ -96,11 +115,11 @@ p {
     }
 }
 
-a {
+p a {
     color: var(--highlight-color);
     opacity: var(--interactive-opacity);
     background: var(--foreground-color);
-    box-shadow: 0px 0px 0px 5px var(--foreground-color);
+    box-shadow: 0px 0px 0px 1px var(--foreground-color);
     transition: opacity 0.25s ease;
     text-decoration: none;
     border-radius: 2px;
@@ -151,14 +170,15 @@ a:hover {
 
 .image-grid img {
     max-width: 100%;
+    border-radius: 8px;
 }
 
 hr {
-    height: 2px;
+    height: 3px;
     background-color: var(--highlight-color);
+    border: 0px;
     outline: 0;
-    border: 0;
-    max-width: 37rem;
+    max-width: 1rem;
     margin: 4rem 0;
 }
 
@@ -180,5 +200,13 @@ hr.small {
 @media (max-width: 1067px)  { 
     img {
         margin: 1.5rem auto 0;
+    }
+    hr {
+        margin: 4rem auto;
+    }
+    a.button {
+        display: block;
+        max-width: 66%;
+        margin: 1rem auto 0;
     }
 }

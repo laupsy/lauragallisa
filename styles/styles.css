@@ -3,174 +3,92 @@
 :root {
     color-scheme: light dark;
     --background-color: #fefefd;
-    --foreground-color: #f1f1f3;
-    --glyph-text-color: #ffffff;
-    --highlight-color: rgba(0,0,0,0.80);
-    --secondary-color: #e4e4e4;
-    --heading-color: rgba(0,0,0,0.80);
-    --interactive-opacity: 0.9;
-    --disabled-opacity: 0.3;
-    --text-color:  rgba(0,0,0,0.60);
-    --mobile-breakpoint: 376px;
-    --content-max: 50rem;
+    --highlight-color: rgb(107, 203, 235);
+    --link-color: rgb(15, 102, 34);
+    --text-color:  rgb(36, 36, 38);
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color: #0f0f0f;
-        --foreground-color: #1b1b1b;
-        --glyph-text-color: #2960b3;
-        --highlight-color: #b8d5ff;
-        --secondary-color: #2c2c2c;
-        --heading-color:  rgba(255,255,255,0.95);
-        --text-color:  rgba(255,255,255,0.65);
+        --background-color: #1c1c1d;
+        --highlight-color: #3a92d0;
+        --link-color: rgb(141, 221, 158);
+        --text-color:  rgb(215, 218, 223);
     }
 }
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: monospace, sans-serif;
 }
 
-body,h1,h2,h3,h4,h5,p,figure {
+body,h1,h2,h3,h4,h5,p,figure,ul,li,hr {
     padding: 0;
     margin: 0;
 }
 
-body {
-    font-size: 24px;
-    background-color: var(--background-color);
+html {
+    font-size: 130%;
 }
 
-@media (min-width: 376px)  { 
-    body {
-        font-size: 16px;
+body {
+    background-color: var(--background-color);
+    padding: 4rem;
+}
+
+@media (min-width: 800px)  { 
+    html {
+        font-size: calc(112.5% + 4 * (100vw - 600px) / 400);
     }
 }
 
-h1,h2,h3,h4,h5 {
-    color: var(--heading-color);
+ul > ul {
+    margin-left: 0.5rem;
 }
 
-h1 {
-    font-size: 3.25rem;
-    line-height: 3.5rem;
-    font-weight: 800;
-    color: var(--heading-color);
-    max-width: var(--content-max);
-    letter-spacing: -0.65px;
-    margin: 1.5rem auto 2rem;
-    text-align: center;
-}
-
-p {
-    padding: 0 5%;
-    line-height: 1.65rem;
-    font-size: 1rem;
-    font-weight: 400;
+li {
+    font-size: 0.66rem;
+    line-height: 166%;
     color: var(--text-color);
-    margin: 1.5rem auto;
-    text-align: center;
-    max-width: var(--content-max);
 }
 
-a.button {
-    background: rgb(255,52,250);
-    background: linear-gradient(32deg, rgba(255,52,250,1) 0%, rgba(255,108,17,1) 100%);
-    border-radius: 24px;
-    padding: 0.8rem 1.75rem;
-    outline: 0;
-    color: black;
-    opacity: var(--interactive-opacity);
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s ease;
-    text-align: center;
-    display: block;
-    max-width: 15rem;
-    margin: 3rem auto 0;
-    font-size: 1rem;
-}
-
-a.button:hover {
-    opacity: 1;
-}
-
-p a {
-    color: var(--highlight-color);
-    opacity: var(--interactive-opacity);
-    transition: opacity 0.25s ease;
+a {
+    color: var(--link-color);
     text-decoration: underline;
 }
 
 a:hover {
-    opacity: 1;
-}
-
-#layout {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 4%;
-}
-
-#content {
-    padding: 0 2.5%;
+    text-decoration-thickness: 3px;
 }
 
 .portrait {
     border-radius: 100%;
-    margin-top: 2vh;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 1rem;
 }
 
-.portrait--large {
-    width: 160px;
-    height: 160px;
-}
-
-.portrait--small {
-    width: 64px;
-    height: 64px;
-    margin: 0 auto 1rem;
-    display: block;
-}
-
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 2rem;
-    padding: 2rem;
-    max-width: 90rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.image-grid img {
-    max-width: 100%;
-    border-radius: 8px;
-}
-
-hr {
-    height: 1px;
+.pill {
+    border-radius: 20rem;
+    display: inline-block;
     background-color: var(--highlight-color);
-    border: 0px;
-    outline: 0;
-    max-width: 1rem;
-    margin: 4rem auto;
+    color: var(--text-color);
+    padding: 0.1rem 0.4rem;
 }
 
-.links-grid {
-    display: flex;
-    gap: 1rem;
-    margin: 2rem auto 4rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+hr.vertical {
+    width: 2px;
+    height: 0.75rem;
+    background-color: var(--highlight-color);
+    border: 0;
+    margin: 0.1rem 0.05rem;
+    border-radius: 1rem;
 }
 
-hr.small {
-    width: 40px;
-    margin-left: auto;
-    margin-right: auto;
+hr.horizontal {
+    width: 0.75rem;
+    height: 2px;
+    background-color: var(--highlight-color);
+    border: 0;
+    margin: 0.75rem 0 0.25rem -0.5rem;
+    border-radius: 1rem;
 }
